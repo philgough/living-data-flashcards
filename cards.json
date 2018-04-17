@@ -19,5 +19,13 @@ var cards = [
 	"What can you do to explain _______ in simple terms?",
 	"How does _______ relate to your 'complication'?",
 	"Will you engage your audience with just a voiceover?",
-	// "",
+	"What is the question you want your audience to consider?",
+	"What is the question your audience will ask about _______?",
+	"Could you pose _______ as a question to the audience?",
+	"Is there a (more) simple way of explaining _______?",
+	"Have you found an image for _______?",
+	"It is engaging to see a slide, rather than the presenter?",
+	"How will the audience relate to _______?",
+	"How would an audience memeber feel if they have experience with _______?",
+	"In which order will you explain _______?"
 ];

@@ -27,5 +27,8 @@ var cards = [
 	"It is engaging to see a slide, rather than the presenter?",
 	"How will the audience relate to _______?",
 	"How would an audience memeber feel if they have experience with _______?",
-	"In which order will you explain _______?"
+	"In which order will you explain _______?",
+	"How are you going to cite the supporting research in your video?",
+	"Are you going to include a reference for _______?",
+	"Is your claim about _______ supported by evidence?"
 ];

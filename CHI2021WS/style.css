@@ -58,6 +58,17 @@ footer {
 	color: white;
 }
 
+a {
+	text-decoration: underline;
+	font-family: 'Inter', sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: #333;
+	color: #fff;
+}
+
 
 .flex-container {
 	display: flex;

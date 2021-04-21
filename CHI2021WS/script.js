@@ -34,5 +34,12 @@ window.onload = function() {
 	}
 	// setInterval(function(){update(nextupdate % 9); nextupdate++}, 4000);
 
+
 }
 
+d3.select("#button")
+	.on("click", function() {
+		for (let i = 0; i < cards.length; i++) {
+		update(i);
+	}
+})

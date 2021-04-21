@@ -61,11 +61,12 @@ footer {
 
 .flex-container {
 	display: flex;
-	height:90%;
+	/*height:90%;*/
 	align-content: stretch;
 	flex-wrap: wrap;
-	align-items: stretch;
+	/*align-items: stretch;*/
 	padding: 1em;
+	flex-direction: column;
 }
 
 .flex-element {

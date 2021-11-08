@@ -6,4 +6,4 @@ var prompts = [
 ];
 
 
-var header = "DESN1001 W14 Tute"
+var header = "DESN1001 Randomiser"

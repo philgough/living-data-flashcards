@@ -39,7 +39,6 @@ var cards =
 		"the ultra-wealthy ",
 		"refugees from political, climate or economic hardship",
 	],
-
 	[
 		"produce Hormones",
 		"heal itself",
@@ -70,5 +69,16 @@ var cards =
 		"create a new bio-skin",
 		"alter someone's mood",
 		"share a microbiome between people",
-	]
+	],
+	[
+		"Human-Centred Design",
+		"Post-Human Design",
+		"Critical Theory",
+		"Consumerism & Consumption",
+		"Circular Economy",
+		"Biodesign",
+		"Material Culture",
+		"Decolonised Design",
+		"Speculative Design",
+	],
 ]

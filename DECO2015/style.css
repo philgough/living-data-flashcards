@@ -93,3 +93,14 @@ a:hover {
     font-style: italic;
     padding-bottom: .5em;
 }
+
+#credit {
+    font-size: 8px;
+    color: white;
+    margin-left: 20px;
+}
+
+#credit-link {
+    font-size: 8px;
+    color: cornflowerblue;
+}

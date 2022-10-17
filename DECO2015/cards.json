@@ -1,0 +1,39 @@
+var cards = [
+    [
+        "A/B List",
+        "Algorithm",
+        "Challenge",
+        "Declaration",
+        "Diagram",
+        "Principles",
+        "Rant",
+        "Rules",
+        "Statement",
+        "Vision",
+    ],
+    [
+        "Angry",
+        "Excited",
+        "Funny",
+        "Hopeful",
+        "Measured",
+        "Outraged",
+        "Playful",
+        "Radical",
+        "Righteous",
+        "Urgent",
+    ],
+
+    [
+        "Come, Comrades",
+        "Imagine",
+        "In the future",
+        "In the past",
+        "Let us",
+        "Until now",
+        "We are",
+        "We believe",
+        "We declare",
+        "We must",
+    ]
+]

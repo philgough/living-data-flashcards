@@ -57,5 +57,7 @@ var cards = [
         "trick employers that you're working",
         "monitor employee behaviour",
         "track tasks",
+        "increase privacy",
+        "control a drone",
     ]
 ]

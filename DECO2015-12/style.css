@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24pt;
+}
+
+body {
+    /*font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    height: 1.5em;
+    background-color: #333;
+    position: fixed;
+    top: 0em;
+    text-align: center;
+    font-size: 1.1em;
+    color: white;
+    padding-top: 0.25em;
+}
+
+main {
+    width: 99%;
+    padding: 2.5%;
+    /*height: 90%;*/
+    /*background: lightblue;*/
+    position: absolute;
+    top: 1.25em;
+    /*max-width: 95%;	*/
+    margin: 0 auto;
+}
+
+section {
+    margin: 0;
+    padding: 2.5%;
+    /*margin: .5%;*/
+    background: white;
+    box-shadow: 6px 12px 1px #333;
+    border: 2px solid black;
+    /*height: 15%;*/
+    width: 90%;
+}
+
+footer {
+    width: 100%;
+    height: 5%;
+    float: end;
+    background: rgba(230, 71, 39, .95);
+    position: fixed;
+    bottom: 0em;
+    padding-left: 5%;
+    font-size: 1em;
+    color: white;
+}
+
+a {
+    text-decoration: underline;
+    font-family: 'Inter', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #333;
+    color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    /*height:90%;*/
+    align-content: stretch;
+    flex-wrap: wrap;
+    /*align-items: stretch;*/
+    padding: 1em;
+    flex-direction: column;
+}
+
+.flex-element {
+    align-self: center top;
+}
+
+.variable {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding-bottom: .5em;
+}
+
+.static {
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: .5em;
+}

@@ -70,8 +70,10 @@ a:hover {
 
 .flex-container {
     display: flex;
+    /*height:90%;*/
     align-content: stretch;
     flex-wrap: wrap;
+    /*align-items: stretch;*/
     padding: 1em;
     flex-direction: column;
 }
@@ -89,11 +91,6 @@ a:hover {
 .static {
     font-weight: lighter;
     font-style: italic;
-    padding-bottom: .5em;
-}
-
-.description {
-    font-style: normal;
     padding-bottom: .5em;
 }
 

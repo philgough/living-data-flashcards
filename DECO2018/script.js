@@ -1,32 +1,64 @@
 var update = function(i) { 	
-	console.log('update: ', i);
-	var j = i+1
+	// console.log('update: ', i);
+
+	if (i < 3) {
 	var r = parseInt(Math.random() * cards[i].length);
 
 	while (currentText.includes(r)) {
 		r = parseInt(Math.random() * cards[i].length);
-		console.log(r);
 	}
 
 	currentText[i] = r;
 
+		d3.select("#section-"+i+"-prompt").transition()
+			.duration(2000)
+			.style("opacity", 0)
+			.transition()
+			.duration(1000)
+			.text(prompts[i])
+			.style("opacity", 1);
+		
+		d3.select("#section-"+i+"-text").transition()
+			.duration(2000)
+			.style("opacity", 0)
+			.transition()
+			.duration(1000)
+			.text(cards[i][r])
+			.style("opacity", 1);
+	}
+	else {
+		var r = parseInt(Math.random() * cards[i][0].length);
 
-	d3.select("#section-"+i+"-text").transition()
-		.duration(2000)
-		.style("opacity", 0)
-		.transition()
-		.duration(1000)
-		.text(cards[i][r])
-		.style("opacity", 1);
+		while (currentText.includes(r)) {
+			r = parseInt(Math.random() * cards[i][0].length);
+		}
 
-	d3.select("#section-"+j+"-text").transition()
-		.duration(2000)
-		.style("opacity", 0)
-		.transition()
-		.duration(1000)
-		.text(cards[j][r])
-		.style("opacity", 1);
+		currentText[i] = r;
+		d3.select("#section-"+i+"-prompt").transition()
+			.duration(2000)
+			.style("opacity", 0)
+			.transition()
+			.duration(1000)
+			.text(prompts[i])
+			.style("opacity", 1);
+		
+		d3.select("#section-"+i+"-text").transition()
+			.duration(2000)
+			.style("opacity", 0)
+			.transition()
+			.duration(1000)
+			.text(cards[i][0][r])
+			.style("opacity", 1);
+		d3.select("#section-"+i+"-description").transition()
+			.duration(2000)
+			.style("opacity", 0)
+			.transition()
+			.duration(1000)
+			.text(cards[i][1][r])
+			.style("opacity", 1);
+	}
 }
+
 
 
 currentText = [];
@@ -34,17 +66,19 @@ currentText.length = 9;
 nextupdate = 0;
 
 window.onload = function() {
-    console.log('Loaded..');
+    // console.log('found', cards.length, 'cards');
 
-
-	update(0)
-	// setInterval(function(){update(nextupdate % 9); nextupdate++}, 4000);
-
-
+	d3.select("#header-title")
+		.text(header)
+	
+	for (let i = 0; i < cards.length; i++) {
+		update(i);
+	}
 }
 
 d3.select("#button")
 	.on("click", function() {
-		update(0);
+		for (let i = 0; i < cards.length; i++) {
+		update(i);
 	}
-)
+})

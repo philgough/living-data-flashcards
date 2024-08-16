@@ -26,7 +26,7 @@ currentText.length = 9;
 nextupdate = 0;
 
 window.onload = function() {
-    console.log('Loaded...');
+    console.log('Loaded..');
 
 
 	for (let i = 0; i < cards.length; i++) {

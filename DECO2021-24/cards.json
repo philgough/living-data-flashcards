@@ -1,4 +1,4 @@
-var cards = [
+const cards = [
     [
         "on a space station between planets",
         "where people migrate to planets across the galaxy",

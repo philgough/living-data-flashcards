@@ -2,7 +2,7 @@ const cards = [
     [
         "on a space station between planets",
         "where people migrate to planets across the galaxy",
-        "where people grow most of their food",
+        "where people grow most of their own food",
         "microhomes in densly populated cities",
         "a low-income housing",
         "a place with spacious agricultural surroundings",
@@ -10,7 +10,7 @@ const cards = [
         "a 3D printed building",
         "designed for many species to live togehter",
         "entirely self-sufficient",
-        "able to recycle nutrients from personal waste",
+        "able to recycle nutrients from waste",
         "a post-apocalyptic bunker",
         "a floating city in the ocean",
         "a flying city in the sky",
@@ -20,7 +20,9 @@ const cards = [
         "in an extreme climate",
         "in a simulated world",
         "also a hospital at home, able to care for the sick",
-        "a self-driving Home"
+        "a self-driving Home",
+        "automated with integrated, intelligent systems",
+        "filled with sensors and data collection"
     ],
     [
         "retired people",
@@ -37,6 +39,10 @@ const cards = [
         "college students",
         "the ultra-wealthy ",
         "refugees from political, climate or economic hardship",
+        "white collar workers",
+        "knowledge workers",
+        "young parents",
+        "adults in a post-work utopia"
     ],
 
 ]
